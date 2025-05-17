@@ -3,7 +3,7 @@ import App from "../App";
 import Layout from "./Layout";
 import About from "./About"; 
 
-export const Router = createBrowserRouter([
+export const router = createBrowserRouter([
   {
     path: "/",
     element: <App />,
@@ -12,7 +12,7 @@ export const Router = createBrowserRouter([
         index: true,
         element: <Layout />,
       },
-      
+
       {
         path: "about",
         element: <About />,
